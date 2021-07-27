@@ -1,0 +1,175 @@
+body, ul, li, h1, h2, a{
+  /* margin: 10px; */
+  padding: 0;
+  font-family: airal;
+ 
+}
+
+
+.banner{
+  position:relative;
+
+}
+.banner img{
+  max-width: 100%;
+  height: 50%;
+}
+.banner .welcome{
+  color: #f63232;
+  padding: 30px;
+  position: absolute;
+  left: 35%;
+  top: 2%;
+}
+.banner h2{
+  font-size: 74px;
+}
+.banner h2 span{
+  font-size: 1.3em;
+}
+.banner_img {
+  height: 500px;
+  width: 100%;
+}
+
+main{
+  max-width: 100%;
+  width: 1200px;
+  margin: 0 ;
+  /* padding: 0 40px; */
+  box-sizing: border-box;
+}
+.ancestor_wrapper {
+  width: 100%;
+}
+.mian_wrapper {
+  text-align: center;
+  /* margin: 80px 0; */
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  margin: auto;
+  /* background-color: black; */
+}
+.img_wrapper {
+display: inline-block;
+width: 23%;
+/* margin: 0.5% 0.5%; */
+margin: 1% ;
+/* background-color:blue; */
+
+}
+.mian_wrapper {
+  max-width: 100%;
+}
+
+.img_items {
+  width: 100%;
+  height: 170px;
+}
+.text-wrapper{
+  text-align: center;
+  padding: 0px 2px;
+  color: #f63232;
+  
+}
+#pop{
+  color: black;
+  font-family: cursive;
+}
+
+#thumb{
+  display: flex;
+  justify-content: flex-end;
+  width: 20%;
+  position: relative;
+  left: 80%;
+}
+#mario{
+  display: flex;
+  padding: 10px 0%;
+  width: 15%;
+  position: relative;
+  
+}
+
+
+footer{
+  background: #f63232;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+nav li a:hover{
+  text-decoration: underline;
+}
+.mian_wrapper  li:hover{
+  position: relative;
+  top: -4px;
+}
+
+section.join p::first-letter{
+  font-size: 1.5em;
+}
+ p::selection{
+  background-color: #f63232;
+  color: white;
+}
+P::after{
+  content: '';
+}
+.life_button{
+  background-color: #f63232;
+  font-size: 25px;
+  border-radius: 9px;
+  color: white;
+
+}
+
+
+@media screen and (max-width:1400px) {
+  .banner .welcome h2{
+    font-size: 60px;
+  }
+
+
+  }
+
+  @media screen and (max-width:960px) {
+    .banner .welcome h2{
+      font-size: 40px;
+    }
+
+    }
+    @media screen and (max-width:700px) {
+      .banner .welcome{
+        position:relative;
+        text-align: center;
+        padding: 10px;
+      }
+      .banner .welcome br{
+        display: none;
+      }
+      .banner .welcome h2{
+        font-size: 25px;
+      }
+      .banner .welcome span{
+        font-size: 1em;
+      }
+      .mian_wrapper  li{
+        width: 100%;
+        margin: 20px auto;
+        display: block;
+      }
+
+      }
+      @media screen and (max-width: 560px){
+
+        nav li{
+          font-size: 20px;
+          display: block;
+          width: 100%;
+          margin: 12px 0;
+        }
+      
+      }
