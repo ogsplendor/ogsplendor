@@ -2,13 +2,6 @@ body, ul, li, h1, h2, a{
   /* margin: 10px; */
   padding: 0;
   font-family: airal;
- 
-}
-
-
-.banner{
-  position:relative;
-
 }
 .banner img{
   max-width: 100%;
@@ -36,7 +29,6 @@ main{
   max-width: 100%;
   width: 1200px;
   margin: 0 ;
-  /* padding: 0 40px; */
   box-sizing: border-box;
 }
 .ancestor_wrapper {
@@ -44,55 +36,48 @@ main{
 }
 .mian_wrapper {
   text-align: center;
-  /* margin: 80px 0; */
   display: flex;
   flex-wrap: nowrap;
   width: 100%;
   margin: auto;
-  /* background-color: black; */
 }
 .img_wrapper {
 display: inline-block;
-width: 23%;
-/* margin: 0.5% 0.5%; */
-margin: 1% ;
-/* background-color:blue; */
-
+width: 25%;
 }
 .mian_wrapper {
-  max-width: 100%;
+  /* max-width: 100%; */
 }
 
 .img_items {
-  width: 100%;
+  width: 98.5%;
   height: 170px;
 }
-.text-wrapper{
+.about_us{
   text-align: center;
-  padding: 0px 2px;
   color: #f63232;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
   
 }
-#pop{
-  color: black;
-  font-family: cursive;
+#img_one{
+  width: 210px;
+  height: 176px ;
 }
-
-#thumb{
-  display: flex;
-  justify-content: flex-end;
+#img_two{
+  width: 250px;
+  height: 150px ;
+}
+.img_one_wrapper {
   width: 20%;
-  position: relative;
-  left: 80%;
 }
-#mario{
-  display: flex;
-  padding: 10px 0%;
-  width: 15%;
-  position: relative;
-  
+.text-wrapper {
+  width: 20% ;
 }
-
+.img_two_wrapper {
+  width: 20%;
+}
 
 footer{
   background: #f63232;
